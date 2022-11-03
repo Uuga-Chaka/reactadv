@@ -8,6 +8,7 @@ import {
 import logo from "../logo.svg";
 import { routes } from "./routes";
 import { Suspense } from "react";
+import { ShoppingPage } from "../02-component-pattern/pages/ShoppingPage";
 
 export const Navigation = () => {
   return (
@@ -35,10 +36,10 @@ export const Navigation = () => {
           </nav>
 
           <Routes>
-            {routes.map(({ path, Component }) => (
+            {/* {routes.map(({ path, Component }) => (
               <Route key={path} path={path} element={<Component />} />
-            ))}
-            <Route path="/*" element={<Navigate to={routes[0].to} replace />} />
+            ))} */}
+            <Route path="/*" element={<ShoppingPage />} />
           </Routes>
         </div>
       </BrowserRouter>
