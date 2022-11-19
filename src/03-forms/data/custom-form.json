@@ -1,0 +1,48 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Juan",
+        "label": "Name",
+        "value": "",
+        "validation": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "Juan@gallego.com",
+        "label": "Email",
+        "value": ""
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "options": [
+            {
+                "id": 1,
+                "name": "Gay"
+            },
+            {
+                "id": 2,
+                "name": "Homo"
+            },
+            {
+                "id": 3,
+                "name": "Fem"
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Last Name",
+        "label": "Last Name",
+        "value": ""
+    }
+]
